@@ -112,11 +112,6 @@ def sr04(trig_pin, echo_pin,):
         servo.mid()
         sleep(1)
     return Afstand
-# while True:
-#     if GPIO.input(switch) == GPIO.HIGH:
-#         while True:
-#             exec(steam)
-#     break
 
 while True:
     if GPIO.input(switch) == GPIO.HIGH:
